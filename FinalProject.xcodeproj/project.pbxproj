@@ -21,6 +21,11 @@
 		1576F14017FE5A9F00A74392 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1576F12217FE5A9F00A74392 /* UIKit.framework */; };
 		1576F14817FE5A9F00A74392 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1576F14617FE5A9F00A74392 /* InfoPlist.strings */; };
 		1576F14A17FE5A9F00A74392 /* FinalProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1576F14917FE5A9F00A74392 /* FinalProjectTests.m */; };
+		1576F15417FE5C4600A74392 /* highway-to-hipster-dream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1576F15317FE5C4600A74392 /* highway-to-hipster-dream.jpg */; };
+		1583717A180A0CF20080FE69 /* FPVideo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15837179180A0CF10080FE69 /* FPVideo1ViewController.m */; };
+		1596800D180ADF3D004726C8 /* fox2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1596800C180ADF3D004726C8 /* fox2.mov */; };
+		15E1466B180A170500D0E1E0 /* FPsurpriseVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E1466A180A170500D0E1E0 /* FPsurpriseVideoViewController.m */; };
+		15E1466E180ADA5100D0E1E0 /* FPMediaVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E1466D180ADA5100D0E1E0 /* FPMediaVideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,14 @@
 		1576F14517FE5A9F00A74392 /* FinalProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalProjectTests-Info.plist"; sourceTree = "<group>"; };
 		1576F14717FE5A9F00A74392 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1576F14917FE5A9F00A74392 /* FinalProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalProjectTests.m; sourceTree = "<group>"; };
+		1576F15317FE5C4600A74392 /* highway-to-hipster-dream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "highway-to-hipster-dream.jpg"; sourceTree = "<group>"; };
+		15837178180A0CF10080FE69 /* FPVideo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPVideo1ViewController.h; sourceTree = "<group>"; };
+		15837179180A0CF10080FE69 /* FPVideo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPVideo1ViewController.m; sourceTree = "<group>"; };
+		1596800C180ADF3D004726C8 /* fox2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = fox2.mov; path = "../../../../../Downloads/AnimalSounds 4/AnimalSounds/fox2.mov"; sourceTree = "<group>"; };
+		15E14669180A170500D0E1E0 /* FPsurpriseVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPsurpriseVideoViewController.h; sourceTree = "<group>"; };
+		15E1466A180A170500D0E1E0 /* FPsurpriseVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPsurpriseVideoViewController.m; sourceTree = "<group>"; };
+		15E1466C180ADA5100D0E1E0 /* FPMediaVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPMediaVideoViewController.h; sourceTree = "<group>"; };
+		15E1466D180ADA5100D0E1E0 /* FPMediaVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPMediaVideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +125,17 @@
 		1576F12417FE5A9F00A74392 /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				1576F15317FE5C4600A74392 /* highway-to-hipster-dream.jpg */,
 				1576F12D17FE5A9F00A74392 /* FPAppDelegate.h */,
 				1576F12E17FE5A9F00A74392 /* FPAppDelegate.m */,
 				1576F13017FE5A9F00A74392 /* Main.storyboard */,
+				15E1466C180ADA5100D0E1E0 /* FPMediaVideoViewController.h */,
+				15E1466D180ADA5100D0E1E0 /* FPMediaVideoViewController.m */,
+				1596800C180ADF3D004726C8 /* fox2.mov */,
+				15E14669180A170500D0E1E0 /* FPsurpriseVideoViewController.h */,
+				15E1466A180A170500D0E1E0 /* FPsurpriseVideoViewController.m */,
+				15837178180A0CF10080FE69 /* FPVideo1ViewController.h */,
+				15837179180A0CF10080FE69 /* FPVideo1ViewController.m */,
 				1576F13317FE5A9F00A74392 /* FPViewController.h */,
 				1576F13417FE5A9F00A74392 /* FPViewController.m */,
 				1576F13617FE5A9F00A74392 /* Images.xcassets */,
@@ -230,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1576F13717FE5A9F00A74392 /* Images.xcassets in Resources */,
+				1596800D180ADF3D004726C8 /* fox2.mov in Resources */,
 				1576F12917FE5A9F00A74392 /* InfoPlist.strings in Resources */,
+				1576F15417FE5C4600A74392 /* highway-to-hipster-dream.jpg in Resources */,
 				1576F13217FE5A9F00A74392 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1583717A180A0CF20080FE69 /* FPVideo1ViewController.m in Sources */,
+				15E1466B180A170500D0E1E0 /* FPsurpriseVideoViewController.m in Sources */,
 				1576F12F17FE5A9F00A74392 /* FPAppDelegate.m in Sources */,
+				15E1466E180ADA5100D0E1E0 /* FPMediaVideoViewController.m in Sources */,
 				1576F12B17FE5A9F00A74392 /* main.m in Sources */,
 				1576F13517FE5A9F00A74392 /* FPViewController.m in Sources */,
 			);
@@ -461,6 +487,7 @@
 				1576F14F17FE5A9F00A74392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1576F15017FE5A9F00A74392 /* Build configuration list for PBXNativeTarget "FinalProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +496,7 @@
 				1576F15217FE5A9F00A74392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
